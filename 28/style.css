@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    background-color: #b0a5c1;
+}
+
+/*ナビゲーションメニュー*/
+.global-nav{
+    background-color: #9e8db3;   
+    padding: 10px;             
+    position: fixed;     
+    top: 0;                     
+    width: 100%;  
+    box-sizing: border-box;
+}
+.global-nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.global-nav a{
+    color: #f9e798;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+.global-nav a:hover{
+    background-color: #b0a5c1; 
+    border-radius: 5px;  
+}
+.global-nav img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+/*各ページの紹介文*/
+.introduction{
+    margin-top: 110px;
+}
+
+/*HOMEのイラスト*/
+.introduction img{
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+/*本紹介*/
+.outerframe{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book{
+    background-color: #9e8db3;
+    margin-bottom: 20px;
+    box-shadow: 0 0 4px #8b8b8b;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.book img{
+    width: 15%;
+    margin-right: 20px;
+}
+.point{
+    padding: 10px;
+}
+.point a{
+    text-decoration: none;
+    color: #f9e798;
+}
+
+/*好きな曲*/
+.playlist table{
+    border-bottom: 2px solid #b0a5c1;
+    background-color: #9e8db3;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: #f9e798;
+}
+.playlist td{
+    border-bottom: 2px solid #b0a5c1;
+    padding: 10px;
+}
+.playlist img{
+    height: 30px;
+}
+.right{
+    text-align: right;
+}
+
+/*マダミス紹介*/
+.scenario{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.element{
+    background-color: #9e8db3;
+    margin-bottom: 20px;
+    box-shadow: 0 0 4px #8b8b8b;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.element img{
+    width: 15%;
+    margin-right: 20px;
+}
+.title{
+    padding: 10px;
+}
+.title a{
+    color: #f9e798;
+}
+.folding{
+    margin-left: 20px;
+}
+
+/*スイーツ紹介*/
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+.maindiv a{
+    margin-bottom: 20px;
+    background-color: #9e8db3;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px #9e8db3;
+    text-decoration: none;
+    color: #f9e798;
+    width: 30%;
+    box-sizing: border-box;
+}
+.maindiv a:hover{
+    background-color: #b0a5c1;
+}
+.item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/*目標紹介*/
+.goal-nav{
+    position: fixed;
+    left: 0;
+    width: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #9e8db3;
+    padding: 10px;
+}
+.goal-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.goal-nav li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+}
+.goal-nav li:hover{
+    background-color: #b0a5c1;
+}
+.goal-nav a{
+    color: #f9e798;
+    text-decoration: none;
+}
+.contentdiv{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.contentdiv img{
+    width: 100px;
+}
+.goal{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px gray;
+    background-color: #9e8db3;
+    padding: 20px;
+}
